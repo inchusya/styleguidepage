@@ -1,0 +1,285 @@
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  h1{
+  font-size: 3.56vw;
+  }
+  h2{
+    font-size: 7.63vw;
+  }
+  .navigation {
+    width: 90.08vw;
+  margin-left: 5%;
+  margin-top: 6%;
+  }
+  .ouch{
+    margin-top: 15%;
+  }
+  .firstheaddiv{
+    display: flex;
+    justify-content: space-around;
+  }
+  .firsthead{
+    display: none;
+  }
+  .firstheadmob{
+    display: block;
+    width: 89.57vw;
+  }
+  .divgo{
+    margin-top: 10%;
+  }
+  .backgo{
+    width: 35.96vw;
+  }
+  .go{
+    margin-top: -7.5%;
+    font-size: 5.09vw;
+  }
+  .mountaindiv{
+    margin-top: 11%;
+  }
+  .mountain{
+    display: none;
+  }
+  .mountainmob{
+    display: block;
+    width: 110vw;
+  }
+  .logodiv{
+    margin-top: -93%;
+  }
+  .logo{
+    width: 89.82vw;
+  }
+  .sparkdiv{
+    top: 153%;
+    left: 1%;
+  }
+  .spark{
+    width: 55.58vw;
+  }
+  .header{
+    width: 78.12vw;
+  }
+  .firsttextd{
+    margin-top: 63%;
+  }
+  .firsttext{
+    width: 75.32vw;
+  }
+  .firsttextflex{
+    margin-top: 1%;
+  }
+  .masha{
+    width: 20.87vw;
+  }
+  .textaud{
+    margin-top: 1%;
+    margin-left: 1%;
+    width: 36.77vw;
+    font-size: 3.56vw;
+  }
+  .auditory{
+    margin-left: 51%;
+    margin-top: -127%;
+    display: block;
+  }
+  .three{
+    background-color: #FFFFFF;
+  }
+  .mustknowimg{
+    width: 100vw;
+  }
+  .mustknow{
+    margin-left: 0%;
+    margin-top: 88%;
+  }
+  .secondtextd{
+    margin-left: 6%;
+    margin-top: -195%;
+  }
+  .secondheader{
+    width: 40.20vw;
+  }
+  .secondtext{
+    width: 76vw;
+    margin-top: 1%;
+  }
+  .draw{
+    width: 41.48vw;
+  }
+  .backknow{
+    margin-top: 5%;
+    width: 47.45vw;
+  }
+  .know{
+    margin-top: -7.1%;
+    margin-left: 9.5%;
+    font-size: 5.09vw;
+  }
+  .four{
+    background-color: #231F1C;
+  }
+  .thirdtextd{
+    text-align: center;
+    margin-top: 42%;
+  }
+  .thirdheader{
+    display: none;
+  }
+  .thirdheadermobd{
+display: flex;
+justify-content: space-around;
+  }
+  .thirdheadermob{
+    text-align: center;
+    width: 71.76vw;
+  }
+  .thirdtext{
+    width: 73.50vw;
+    text-align: center;
+    color: #FEFF8B;
+  }
+  .boy1d{
+    margin-left: 5%;
+    margin-top: -165%;
+  }
+  .boy1{
+    width: 39.55vw;
+  }
+  .boy2d{
+    margin-left: 41%;
+    margin-top: 136%;
+  }
+  .boy2{
+    width: 58.56vw;
+  }
+  .benefitsd{
+    overflow: hidden;
+    height: 50vh;
+    text-align: right;
+    margin-top: 109%;
+  }
+  .benefitsimg{
+    margin-top: -24%;
+    height: auto;
+    width: 100vw;
+  }
+  .phoned{
+    text-align: center;
+    margin-top: -48vh;
+    margin-left: 5%;
+  }
+  .phone{
+    height: 46vh;
+  }
+  .fourthtextd{
+    margin-left: 6%;
+    margin-top: -91vh;
+  }
+  .fourthheader{
+    width: 72.01vw;
+  }
+  .fourthtext{
+    width: 79vw;
+    margin-top: 1%;
+  }
+  .divgo1{
+     margin-top: 6%;
+  }
+  .go1{
+    margin-top: -8%;
+    margin-left: 9.3%;
+    font-size: 5.09vw;
+  }
+  .fourthtext2{
+    margin-top: 1%;
+    width: 89.31vw;
+    font-size: 5.09vw;
+  }
+  .back{
+    width: auto;
+    height: 100vh;
+  }
+  .backdiv{
+    margin-left: -114%;
+    margin-top: 0%;
+  }
+   .lastlogo{
+    /* margin-bottom: 26vh; */
+    margin-top: -138%;
+  }
+  .logodiv1{
+    width: 100vw;
+    /* margin-top: -53%; */
+    text-align: center;
+  }
+  .logo1{
+    width: 40.71vw;
+  }
+  .lastheaderdiv{
+    display: flex;
+    justify-content: space-around;
+  }
+  .lastheader{
+    width: 76.34vw;
+  }
+  .join1{
+    text-align: center;
+    margin-top: 2%;
+  }
+  .backjoin{
+    width: 55.71vw;
+  }
+  .jointext{
+    margin-top: -8.1%;
+    font-size: 5.09vw;
+  }
+  .footer{
+    margin-top: 75%;
+    margin-left: 7%;
+    width: 86.01vw;
+  }
+  .leftfooter{
+    width: 46.06vw;
+  }
+  .promo{
+    text-align: center;
+  }
+  .backpromo{
+    width: 19.08vw;
+  }
+  .promotext{
+  margin-top: -36%;
+  }
+  .aboutus{
+    text-align: center;
+  }
+  .backaboutus{
+    width: 24.43vw;
+  }
+  .aboutustext{
+  margin-top: -27%;
+  }
+  .rightfooter{
+    width: 37.40vw;
+  }
+  .tg{
+    text-align: center;
+  }
+  .backtg{
+    width: 22.14vw;
+  }
+  .tgtext{
+  margin-top: -30%;
+  }
+  .vk{
+    text-align: center;
+  }
+  .backvk{
+    width: 12.72vw;
+  }
+  .vktext{
+  margin-top: -57%;
+  }
+
+}

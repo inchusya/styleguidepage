@@ -1,0 +1,24 @@
+@font-face {
+    font-family: "InterRegular";
+    src: url("../Font/Inter-Regular.ttf") format("truetype");
+}
+@font-face {
+    font-family: "InterSemiBold";
+    src: url("../Font/Inter-SemiBold.ttf") format("truetype");
+}
+@font-face {
+    font-family: "InterMedium";
+    src: url("../Font/Inter-Medium.ttf") format("truetype");
+}
+@font-face {
+    font-family: "InterMedium";
+    src: url("../Font/Inter-Medium.ttf") format("truetype");
+}
+@font-face {
+  font-family: 'Diagramatika';
+  src: url('../Font/Diagramatika Display Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: '21Cent-Italic';
+  src: url('../Font/21Cent-Italic.otf') format('opentype');
+}

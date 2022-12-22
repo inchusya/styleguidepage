@@ -1,0 +1,405 @@
+body{
+  background-color: #EFEFEF;
+  overflow-x: hidden;
+}
+section {
+  min-height: 100vh;
+  margin: 0;
+  overflow: hidden;
+  width: 85.078vw;
+  margin-left: 14.922vw;
+  text-align: center;
+  justify-content: center;
+    align-items: center;
+}
+h1{
+font-family: 'Diagramatika';
+font-size: 1.39vw;
+font-weight: normal;
+color: #231F1C;
+}
+p{
+  font-family: 'Diagramatika';
+  font-size: 3.281vw;
+}
+li{
+  font-family: 'Diagramatika';
+  font-size: 1.563vw;
+  line-height: 1.998vw;
+}
+ul{
+  margin-top: 1.953vw;
+  margin-left: 1.563vw;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+h2{
+  font-family: 'Diagramatika';
+  font-size: 3.70vw;
+  font-weight: normal;
+  color: #231F1C;
+}
+.logoimg{
+  width: 6.094vw;
+  margin-top: 1.563vw;
+  margin-left: 2.188vw;
+}
+.navbar{
+  width: 14.922vw;
+  height: 100vh;
+  z-index: 1;
+  background-color: #FEFF8B;
+  position: fixed;
+}
+.backgroundcover{
+  width: 85.078vw;
+
+}
+.bcimg{
+    width: 85.078vw
+}
+.stg{
+
+  margin-top: -47.25vw;
+  /* width: 48.366vw; */
+}
+.stgimg{
+  margin-top: 2vw;
+}
+.head{
+
+}
+.brand{
+  width: 85.078vw;
+margin-left: 14.922vw;
+
+}
+.textwhite{
+  color: #EFEFEF;
+  width: 63.640vw;
+  margin-bottom: 10vw;
+}
+.textblue{
+  width: 63.640vw;
+  margin-bottom: 10vw;
+}
+.backblue{
+background-color: #3C65F6;
+}
+
+.screen2{
+
+
+}
+/*
+.navigation {
+  text-align: center;
+  width: 39vw;
+  display: flex;
+margin-left: 31%;
+margin-top: 2%;
+  position: relative;
+  justify-content: space-between;
+}
+.ouch{
+  margin-top: 3%;
+  text-align: center;
+  width: 100vw;
+}
+.firsthead{
+  width: 90.16vw;
+}
+.firstheadmob{
+  display: none;
+}
+.divgo{
+  margin-top: 3%;
+  text-align: center;
+  width: 100vw;
+}
+.backgo{
+  width: 16.96vw;
+}
+.go{
+  margin-top: -3.1%;
+  font-family: 'Diagramatika';
+  font-size: 2.08vw;
+  font-weight: normal;
+  color: #FEFF8B;
+}
+.mountaindiv{
+  text-align: center;
+  margin-top: 6%;
+  margin-left: -8%;
+}
+.mountain{
+  width: 112vw;
+}
+.mountainmob{
+  display: none;
+}
+.logodiv{
+  text-align: center;
+  margin-top: -40%;
+  margin-left: 0%;
+}
+.logo{
+  width: 53.18vw;
+}
+.sparkdiv{
+  position: absolute;
+  top: 129%;
+  left: 5%;
+  z-index: -1;
+}
+.spark{
+  width: 30.09vw;
+}
+.header{
+  width: 34.43vw;
+}
+.firsttextd{
+  text-align: center;
+  margin-top: 29vh;
+}
+.firsttext{
+  width: 73.50vw;
+  text-align: center;
+}
+.firsttextflex{
+  margin-top: 1%;
+  display: flex;
+  justify-content: space-around;
+}
+.masha{
+  width: 7.41vw;
+}
+.textaud{
+  margin-left: 1%;
+  width: 23.44vw;
+  font-family: 'Diagramatika';
+  font-size: 2.08vw;
+  font-weight: normal;
+  color: #3C65F6;
+}
+.auditory{
+  margin-left: 59%;
+  margin-top: 1%;
+  display: flex;
+  width: 35vw;
+}
+.three{
+  background-color: #FFFFFF;
+}
+.mustknowimg{
+  width: 50vw;
+}
+.mustknow{
+  margin-left: 0%;
+  margin-top: 0%;
+}
+.secondtextd{
+  margin-left: 59%;
+  margin-top: -58%;
+}
+.secondheader{
+  width: 21vw;
+}
+.secondtext{
+  width: 36vw;
+  margin-top: 3%;
+}
+.draw{
+  width: 20.31vw;
+}
+.backknow{
+  display: block;
+  margin-top: 7%;
+  width: 22.45vw;
+}
+.know{
+  margin-top: -7.1%;
+  margin-left: 11.5%;
+  font-family: 'Diagramatika';
+  font-size: 2.08vw;
+  font-weight: normal;
+  color: #FEFF8B;
+}
+.four{
+  background-color: #231F1C;
+}
+.thirdtextd{
+  text-align: center;
+  margin-top: 18%;
+}
+.thirdheader{
+  width: 51.68vw
+}
+.thirdheadermobd{
+  display: none;
+}
+.thirdtext{
+  width: 73.50vw;
+  text-align: center;
+  color: #FEFF8B;
+}
+.boy1d{
+  margin-left: 1%;
+  margin-top: -46%;
+}
+.boy1{
+  width: 26.79vw;
+}
+.boy2d{
+  margin-left: 70%;
+  margin-top: 24%;
+}
+.boy2{
+  width: 26.50vw;
+}
+.benefitsd{
+  text-align: right;
+  margin-top: -6%;
+}
+.benefitsimg{
+  height: 116vh;
+  width: 50vw;
+}
+.phoned{
+  position: relative;
+  text-align: right;
+  margin-top: -101vh;
+  /* margin-bottom: 10%; */
+  margin-right: 8%;
+}
+.phone{
+  height: 88vh;
+  /* width: 33.53vw; */
+}
+.fourthtextd{
+  margin-left: 2%;
+  margin-top: -79vh;
+}
+.fourthheader{
+  width: 35.47vw;
+}
+.fourthtext{
+  width: 39vw;
+  margin-top: 1%;
+}
+.divgo1{
+   margin-top: 3%;
+}
+.go1{
+  margin-top: -3.1%;
+  margin-left: 4.8%;
+  font-family: 'Diagramatika';
+  font-size: 2.08vw;
+  font-weight: normal;
+  color: #FEFF8B;
+}
+.fourthtext2{
+  margin-top: 1%;
+  width: 39vw;
+  font-family: 'Diagramatika';
+  font-size: 2.08vw;
+  font-weight: normal;
+  color: #231F1C;
+}
+.back{
+  width: 100vw;
+}
+.backdiv{
+  margin-top: 0%;
+}
+ .lastlogo{
+  /* margin-bottom: 26vh; */
+  margin-top: -53%;
+}
+.logodiv1{
+  width: 100vw;
+  /* margin-top: -53%; */
+  text-align: center;
+}
+.logo1{
+  width: 15.34vw;
+}
+.lastheaderdiv{
+  display: flex;
+  justify-content: space-around;
+}
+.lastheader{
+  width: 45.72vw;
+}
+.join1{
+  text-align: center;
+  margin-top: 2%;
+}
+.backjoin{
+  width: 24.71vw;
+}
+.jointext{
+  margin-top: -3.1%;
+  font-family: 'Diagramatika';
+  font-size: 2.08vw;
+  font-weight: normal;
+  color: #231F1C;
+}
+.footer{
+  /* position: absolute; */
+  margin-top: 13%;
+  margin-left: 3%;
+  /* left: 3%;
+  bottom: -500vh; */
+  display: flex;
+  width: 94vw;
+  justify-content: space-between;
+}
+.leftfooter{
+  display: flex;
+  width: 17vw;
+  justify-content: space-between;
+}
+.promo{
+  text-align: center;
+}
+.backpromo{
+  width: 6.60vw;
+}
+.promotext{
+margin-top: -35%;
+}
+.aboutus{
+  text-align: center;
+}
+.backaboutus{
+  width: 8.68vw;
+}
+.aboutustext{
+margin-top: -27%;
+}
+.rightfooter{
+  display: flex;
+  width: 13.5vw;
+  justify-content: space-between;
+}
+.tg{
+  text-align: center;
+}
+.backtg{
+  width: 7.81vw;
+}
+.tgtext{
+margin-top: -29%;
+}
+.vk{
+  text-align: center;
+}
+.backvk{
+  width: 4.17vw;
+}
+.vktext{
+margin-top: -54%;
+} */
