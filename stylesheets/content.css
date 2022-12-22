@@ -62,7 +62,8 @@ h2{
 
 }
 .bcimg{
-    width: 85.078vw
+    width: 85.078vw;
+    margin-top: -1vw;
 }
 .stg{
 
@@ -71,14 +72,21 @@ h2{
 }
 .stgimg{
   margin-top: 2vw;
+
 }
 .head{
 
+}
+.sizeimg{
+    width: 85.078vw;
 }
 .brand{
   width: 85.078vw;
 margin-left: 14.922vw;
 
+}
+.brandnead{
+    width: 85.078vw;
 }
 .textwhite{
   color: #EFEFEF;
