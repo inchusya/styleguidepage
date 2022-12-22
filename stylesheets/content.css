@@ -41,6 +41,10 @@ h2{
   font-weight: normal;
   color: #231F1C;
 }
+.textcenter{
+  display: flex;
+  justify-content: space-around;
+}
 .logoimg{
   width: 6.094vw;
   margin-top: 1.563vw;
@@ -83,7 +87,7 @@ margin-left: 14.922vw;
 }
 .textblue{
   width: 63.640vw;
-  margin-bottom: 10vw;
+  margin-bottom: 5vw;
 }
 .backblue{
 background-color: #3C65F6;
@@ -91,7 +95,86 @@ background-color: #3C65F6;
 
 .screen2{
 
+}
+.textcolour{
 
+  margin-bottom: 5vw;
+  /* width: 63.640vw;
+display: flex; */
+  justify-content: space-around;
+}
+.textcolour1{
+
+  margin-bottom: 5vw;
+  width: 63.640vw;
+display: flex;
+  justify-content: space-around;
+}
+.swatches{
+    width: 63.640vw;
+  display: flex;
+    justify-content: space-around;
+}
+.acimg{
+    width: 85.078vw;
+  margin-top: 2vw;
+}
+.textac{
+  margin-bottom: 5vw;
+
+display: flex;
+  justify-content: space-around;
+}
+.imgcenter{
+  display: flex;
+justify-content: space-evenly;
+margin-bottom: 5vw;
+}
+.imgmargin{
+  margin-bottom: 5vw;
+}
+.textleft{
+  text-align: left;
+      width: 63.64vw;
+}
+.textrow{
+  /* display: flex;
+justify-content: space-evenly;
+  text-align: center; */
+  align-items: center;
+}
+.nomargin{
+  margin-bottom: 0;
+}
+.textflex{
+  display: flex;
+}
+.textblock{
+  display: block;
+  text-align: center;
+}
+.blueblock, .greyblock{
+    width: 22.578vw;
+}
+.blueratio{
+  width: 22.578vw;
+  height: 17.813vw;
+  background-color: #3C65F6;
+}
+.greyratio{
+  width: 22.578vw;
+  height: 17.813vw;
+  background-color: #EFEFEF;
+}
+.blackratio{
+  width: 12.109vw;
+  height: 17.813vw;
+  background-color: #231F1C;
+}
+.yellowratio{
+  width: 6.016vw;
+  height: 17.813vw;
+  background-color: #FEFF8B;
 }
 /*
 .navigation {
