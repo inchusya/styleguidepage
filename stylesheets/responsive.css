@@ -1,7 +1,7 @@
 @media only screen and (min-width: 320px) and (max-width: 767px) {
   section {
-    width: 85.078vw;
-    margin-left: 14.922vw;
+    width: 100vw;
+    margin-left: 0vw;
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -11,59 +11,84 @@
   }
   p {
     font-family: "Diagramatika";
-    font-size: 3.281vw;
+    font-size: 4.831vw;
   }
   li {
-    font-size: 1.563vw;
+    font-size: 2.899vw;
     line-height: 1.998vw;
   }
   ul {
-    margin-top: 1.953vw;
-    margin-left: 1.563vw;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -4.047vw;
+    margin-left: 11.563vw;
+    width: 85.575vw;
   }
 
   h2 {
     font-size: 3.7vw;
+  }
+  .mainback {
+    background-image: url("../images/backgroundcover.png");
+    height: 100vh;
   }
   .textcenter {
     display: flex;
     justify-content: space-around;
   }
   .logoimg {
-    width: 6.094vw;
-    margin-top: 1.563vw;
+    width: 8.094vw;
+    margin-top: 3.563vw;
     margin-left: 2.188vw;
   }
   .navbar {
-    width: 14.922vw;
+    width: 100vw;
+    height: 14.976vw;
+    /* width: 14.922vw;
     height: 100vh;
     z-index: 1;
     background-color: #feff8b;
-    position: fixed;
+    position: fixed; */
   }
   .backgroundcover {
-    width: 85.078vw;
+    margin: 50vw;
+    width: auto;
+    display: flex;
+    justify-content: space-around;
+  }
+  .backgroundcover1 {
+    width: 100vw;
   }
   .bcimg {
-    width: 85.078vw;
+    width: 100vw;
     margin-top: -1vw;
   }
+  .bcimgone {
+    width: 100vw;
+    display: none;
+  }
   .stg {
+    display: block;
     margin-top: -47.25vw;
+  }
+  .stg1 {
+    margin-top: 0;
+    display: block;
   }
   .stgimg {
     margin-top: 2vw;
+    width: 42.271vw;
   }
 
   .sizeimg {
-    width: 85.078vw;
+    width: 100vw;
   }
   .brand {
     width: 85.078vw;
     margin-left: 14.922vw;
   }
   .brandnead {
-    width: 85.078vw;
+    width: 100vw;
   }
   .textwhite {
     width: 63.64vw;
@@ -76,7 +101,10 @@
   .backblue {
     background-color: #3c65f6;
   }
-
+  .imgadapt {
+    width: 32.271vw;
+    margin: 2vw;
+  }
   .textcolour {
     margin-bottom: 5vw;
 
@@ -113,6 +141,7 @@
   .textleft {
     text-align: left;
     width: 63.64vw;
+    margin-bottom: 10vw;
   }
   .textrow {
     align-items: center;
@@ -146,5 +175,20 @@
   .yellowratio {
     width: 6.016vw;
     height: 17.813vw;
+  }
+  .ht1 {
+    height: 15.459vw;
+  }
+  .ht2 {
+    height: 9.246vw;
+  }
+  .ht3 {
+    height: 6.522vw;
+  }
+  .sizeimgsmall {
+    width: 14.453vw;
+  }
+  .bcimgsmall {
+    width: 54.844vw;
   }
 }

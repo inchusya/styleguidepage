@@ -3,7 +3,7 @@ body {
   overflow-x: hidden;
 }
 section {
-  min-height: 100vh;
+  /* min-height: 100vh; */
   margin: 0;
   overflow: hidden;
   width: 85.078vw;
@@ -60,9 +60,19 @@ h2 {
 .backgroundcover {
   width: 85.078vw;
 }
+.backgroundcover1 {
+  width: 85.078vw;
+}
+.bcimgone {
+  width: 85.078vw;
+  display: block;
+}
 .bcimg {
   width: 85.078vw;
   margin-top: -1vw;
+}
+.bcimgsmall {
+  width: 54.844vw;
 }
 .stg {
   margin-top: -47.25vw;
@@ -70,11 +80,33 @@ h2 {
 }
 .stgimg {
   margin-top: 2vw;
+  width: 85.078vw;
+  /* width: 85.078vw; */
+}
+.stgimg2 {
+  margin-top: 2vw;
+  width: 27.444vw;
 }
 .head {
 }
+/* .inlinelogo {
+  display: flex;
+  width: 85.078vw;
+} */
 .sizeimg {
   width: 85.078vw;
+}
+.mainback {
+  height: 59vw;
+}
+.sizeimgsmall {
+  width: 4.453vw;
+}
+.sizeimgbig {
+  width: 25.078vw;
+}
+.addpadding {
+  padding-bottom: 4vw;
 }
 .brand {
   width: 85.078vw;
@@ -82,6 +114,7 @@ h2 {
 }
 .brandnead {
   width: 85.078vw;
+  margin-top: 4vw;
 }
 .textwhite {
   color: #efefef;
@@ -91,6 +124,15 @@ h2 {
 .textblue {
   width: 63.64vw;
   margin-bottom: 5vw;
+}
+.textsimg {
+  height: 9.306vw;
+  margin: -2vw;
+}
+.textsimg4 {
+  height: 9.306vw;
+  margin: -2vw;
+  margin-top: -5vw;
 }
 .backblue {
   background-color: #3c65f6;
@@ -176,4 +218,13 @@ justify-content: space-evenly;
   width: 6.016vw;
   height: 17.813vw;
   background-color: #feff8b;
+}
+.ht1 {
+  height: 11.813vw;
+}
+.ht2 {
+  height: 9.306vw;
+}
+.ht3 {
+  height: 4.609vw;
 }
