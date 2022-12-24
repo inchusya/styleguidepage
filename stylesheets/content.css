@@ -41,6 +41,9 @@ h2 {
   font-weight: normal;
   color: #231f1c;
 }
+.stg1 {
+  margin: -53vw;
+}
 .textcenter {
   display: flex;
   justify-content: space-around;
